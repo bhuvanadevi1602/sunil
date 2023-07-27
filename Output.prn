@@ -1,0 +1,30 @@
+<xpml><page quantity="0" pitch="50.0 mm"></xpml>
+    SIZE 100 mm, 50 mm
+    GAP 3 mm, 0 mm
+    SET RIBBON ON
+    DIRECTION 0,0
+    REFERENCE 0,0
+    OFFSET 0 mm
+    SET PEEL OFF
+    SET CUTTER OFF
+    SET PARTIAL_CUTTER OFF
+    <xpml></page></xpml><xpml><page quantity="1" pitch="50.0 mm"></xpml>SET TEAR ON
+    CLS
+    CODEPAGE 1252
+    TEXT 576,267,"ROMAN.TTF",180,1,12,"S. No."
+    TEXT 576,200,"ROMAN.TTF",180,1,12,"Q. No."
+    TEXT 576,136,"ROMAN.TTF",180,1,12,"Mtrs."
+    TEXT 576,77,"ROMAN.TTF",180,1,12,"Price."
+    TEXT 457,266,"ROMAN.TTF",180,1,14,"1411"
+    TEXT 457,205,"ROMAN.TTF",180,1,14,"R533"
+    TEXT 457,141,"ROMAN.TTF",180,1,14,"2.3"
+    TEXT 457,84,"ROMAN.TTF",180,1,18,"5.00"
+    BARCODE 219,350,"128M",52,0,180,2,4,"!1059841603683"
+    TEXT 660,302,"0",270,37,28,"1411"
+    BAR 74, 224, 410, 3
+    BAR 74, 163, 410, 3
+    BAR 74, 99, 410, 3
+    BAR 74, 29, 410, 3
+    BOX 13,5,589,373,9
+    PRINT 1,1
+    <xpml></page></xpml><xpml><end/></xpml>
